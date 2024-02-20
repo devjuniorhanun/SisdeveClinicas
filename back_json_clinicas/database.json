@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "id": "15773890-0d36-1eb9-b1c3-dfad75a98bf0",
+            "email": "usuario@usuario.com",
+            "password": "123123"
+        }
+    ],
+    "adm_users": [
+        {
+            "id": "e878a080-0e67-1eb9-b1c3-dfad75a98bf0",
+            "email": "terminal@terminal.com",
+            "password": "123123"
+        }
+    ],
+    "attendantDeskAssignment": [],
+    "patients": [],
+    "patientInformationForm": [],
+    "painelCheckin": [],
+    "tests": []
+}

@@ -1,0 +1,27 @@
+# Nome do Servidor
+name: Json Rest Server
+# Porta do servidor
+port: 8080
+# Habilita todos os Ips
+host: 0.0.0.0
+# Arquivo de banco de dados
+database: database.json
+#Indica se você quer que inicie um servidor de socket junto com o servidor rest (true/false)
+enableSocket: true 
+#Indica a porta de acesso do socket padrão (Websocket não utiliza essa porta):  8081
+socketPort: 8081
+# Habilitando as notificações do WebSocket
+broadcastProvider: socket
+# Geração de uuid
+idType: uuid
+
+# Sistema de Autenticação
+auth:
+  # Senha responsavel por gera o Token Jwt
+  jwtSecret: -xojmoAj9apO*1UpTIe<HeCTj6%0l3
+  # Tempo de duração dos Tokens
+  jwtExpire: 3600
+  # Urls sem Autenticações
+  urlSkip:
+    - /images/:
+        method: get
